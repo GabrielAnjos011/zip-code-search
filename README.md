@@ -19,7 +19,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 $ git clone <https://github.com/GabrielAnjos011/zip-code-search.git>
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Buscador-de-cep-react
+$ cd zip-code-search
 
 # Instale as dependências
 $ npm install
