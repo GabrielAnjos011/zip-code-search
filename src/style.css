@@ -1,113 +1,113 @@
-.container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: linear-gradient(#95BFAC, #3B8C7D);
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#95bfac, #3b8c7d);
 }
 
 .title {
-    font-size: 3.5em;
-    color: #FFF;
-    animation: fliptitle 2s;
+  font-size: 3.5em;
+  color: #fff;
+  animation: fliptitle 2s;
 }
 
 @keyframes fliptitle {
-    from{
-        transform: rotateX(90deg);
-    }
-    to{
-        transform: rotateX(0deg);
-    }
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
 }
 
 .containerInput {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    margin: 34px 0;
-    display: flex;
-    border-radius: 8px;
-    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin: 34px 0;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .containerInput input {
-    background-color: transparent;
-    border: 0;
-    font-size: 20px;
-    color: #FFF;
-    outline: 0;
-    margin-right: 8px;
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  color: #fff;
+  outline: 0;
+  margin-right: 8px;
 }
 
 .containerInput input::placeholder {
-    color: #F1F1F1;
+  color: #f1f1f1;
 }
 
 .buttonSearch {
-    background-color: transparent;
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: transform 0.5s;
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.5s;
 }
 
 .buttonSearch:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #FFF;
-    width: 500px;
-    border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 8px;
 }
 
 .main h2 {
-    margin: 16px 0;
-    font-size: 39px;
+  margin: 16px 0;
+  font-size: 39px;
 }
 
 .main span {
-    margin-bottom: 16px;
-    font-weight: bold;
-    text-align: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .clearBtn {
-    margin: 19px 0;
-    border: 0;
-    padding: 8px;
-    cursor: pointer;
-    border-radius: 8px;
-    background-color: #425c53;
-    color: #FFF;
-    transition: all 0.2s;
-    border: 1px solid #425c53;
+  margin: 19px 0;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #425c53;
+  color: #fff;
+  transition: all 0.2s;
+  border: 1px solid #425c53;
 }
 
 .clearBtn:hover {
-    background-color: #3B8C7D;
-    border: 1px solid #fff;
+  background-color: #3b8c7d;
+  border: 1px solid #fff;
 }
 
 @media (max-width: 620px) {
-    .title {
-        font-size: 50px;
-        text-align: center;
-    }
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
 
-    .main h2 {
-        font-size: 28px;
-    }
+  .main h2 {
+    font-size: 28px;
+  }
 
-    .main {
-        width: 80%;
-        min-height: 250px;
-    }
+  .main {
+    width: 80%;
+    min-height: 250px;
+  }
 }
